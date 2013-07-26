@@ -1,0 +1,413 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head id="Head1"><link href="../../App_Themes/Common/EGroupsMail.css" type="text/css" rel="stylesheet" /><meta name='audience' content='ALL' /><meta name='rating' content='General' /><meta name='distribution' content='Global, Worldwide' /><meta name='copyright' content='Higher Logic, LLC' /><meta name='content-language' content='EN' /><meta name='Author' content='Higher Logic, LLC' /><link rel='SHORTCUT ICON' href='/App_Themes/TEMPLATE_ADMIN/images/favicon.ico' type='image/x-icon' /><script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+									<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js'></script><script type='text/javascript' src='http://d28hznfeas2at1.cloudfront.net/getfiles.rshx?x=%2bg95mQHNALuu2NDwV0DQHxspZCwkWHXjVJ%2b5%2fKbmUe8vS0oFlcWn7l3ZlArhyOpwVd8Y7Eo44uNgk1uNsJITPQ%3d%3d'></script><link type='text/css'  rel='stylesheet' href='http://d28hznfeas2at1.cloudfront.net/getfiles.rshx?x=%2bg95mQHNALuu2NDwV0DQHxspZCwkWHXjVJ%2b5%2fKbmUe8vS0oFlcWn7l3ZlArhyOpwizGmY6DodVGcHtrO%2feZpJQ%3d%3d'/><link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/base/jquery-ui.css' type='text/css' rel='stylesheet' /><link href='/HigherLogic/CSS/UMasterTemplate.css' type='text/css' rel='stylesheet' /><link href='/Generated.css?k=f358489c-b4ae-4646-b722-85aacf1e405a' type='text/css' rel='stylesheet' /><script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['t1._setAccount', 'UA-231528-21']); _gaq.push(['t1._trackPageview']);  (function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script><style type="text/css">
+	/* <![CDATA[ */
+	#AuxMenu img.icon { border-style:none;vertical-align:middle; }
+	#AuxMenu img.separator { border-style:none;display:block; }
+	#AuxMenu img.horizontal-separator { border-style:none;vertical-align:middle; }
+	#AuxMenu ul { list-style:none;margin:0;padding:0;width:auto; }
+	#AuxMenu ul.dynamic { z-index:1; }
+	#AuxMenu a { text-decoration:none;white-space:nowrap;display:block; }
+	#AuxMenu a.static { text-decoration:none;border-style:none;padding-left:0.15em;padding-right:0.15em; }
+	#AuxMenu a.popout { background-image:url("/WebResource.axd?d=fmxoJqV-Zixi8WaeBzJ0Vd3UqA91jg4Y2fkCuXmM7BZ70s1p-sSY5NYiLyIEerA7o8LYMXSV7aWDkiv6eW9ia5ZQ7HA1&t=634896397540000000");background-repeat:no-repeat;background-position:right center;padding-right:14px; }
+	/* ]]> */
+</style><title>
+	Officers - Statistics Without Borders
+</title></head>
+<body class="bodyBackground">
+    
+    
+    <div id="MPOuterMost">
+        <form method="post" action="Officers1" onsubmit="javascript:return WebForm_OnSubmit();" id="MasterPageForm">
+<div class="aspNetHidden">
+<input type="hidden" name="ScriptManager1_TSM" id="ScriptManager1_TSM" value="" />
+<input type="hidden" name="StyleSheetManager1_TSSM" id="StyleSheetManager1_TSSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2NTY5Nzg2MTIPZBYCZg8PFgIeCklzSG9tZVBhZ2VoZBYCAgMPZBYUAgUPFgIeD1N0YXJ0aW5nTm9kZVVybAUiL0FNU1RBVC9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvMWQCBw8WAh8BBSIvU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzL0Fib3V0U1dCZAIJDxYCHwEFIi9BTVNUQVQvU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzLzNkAgsPFgIfAQUiL0FNU1RBVC9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvNGQCDQ8WAh8BBSIvQU1TVEFUL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy8yZAIPDxYCHgdWaXNpYmxlaBYIAgEPDxYCHwJoZGQCAw8PFgIfAmhkZAIFDw8WBB4MTWljcm9zaXRlS2V5KClYU3lzdGVtLkd1aWQsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSRlYTlkMDFiZi1kYmZlLTQ2ZjYtYTY4MS1mZDc4OTBjZjEzNTcfAmhkZAIHDw8WBB8DKCsEJGVhOWQwMWJmLWRiZmUtNDZmNi1hNjgxLWZkNzg5MGNmMTM1Nx8CaGRkAhEPZBYCAgEPZBYCAgEPDxYEHgVUb2tlbgUkQjk1Rjk3MDMtMTYwRi00OUM5LThFM0EtOUJENzQ4MzNBMjRCHghMb2dpblVybAWgAWh0dHA6Ly93d3cuYW1zdGF0Lm9yZy9lc2VyaWVzL3NvdXJjZS9zZWN1cml0eS9ITExvZ2luUmVkaXJlY3QuY2ZtP1JldHVyblBhdGg9aHR0cCUzYSUyZiUyZmNvbW11bml0eS5hbXN0YXQub3JnJTJmU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzJTJmQWJvdXRTV0IlMmZPZmZpY2VyczFkFghmDxUBGUhMV2VsY29tZSBITFdlbGNvbWVIZWFkZXJkAgEPFgIfAmgWAgIBDxYCHgRUZXh0ZWQCAw8WAh8CaBYCAgEPFgIeC18hSXRlbUNvdW50Av////8PZAIFDw8WAh8CZ2QWBAIBDxYEHgdvbmNsaWNrBcIBd2luZG93LmxvY2F0aW9uID0gJ2h0dHA6Ly93d3cuYW1zdGF0Lm9yZy9lc2VyaWVzL3NvdXJjZS9zZWN1cml0eS9ITExvZ2luUmVkaXJlY3QuY2ZtP1JldHVyblBhdGg9aHR0cCUzYSUyZiUyZmNvbW11bml0eS5hbXN0YXQub3JnJTJmU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzJTJmQWJvdXRTV0IlMmZPZmZpY2VyczEnO3JldHVybiBmYWxzZTsfAmgWAmYPFQEiTG9naW4gdG8gc2VlIG1lbWJlcnMtb25seSBjb250ZW50LmQCAw8PFgQeC05hdmlnYXRlVXJsBaABaHR0cDovL3d3dy5hbXN0YXQub3JnL2VzZXJpZXMvc291cmNlL3NlY3VyaXR5L0hMTG9naW5SZWRpcmVjdC5jZm0/UmV0dXJuUGF0aD1odHRwJTNhJTJmJTJmY29tbXVuaXR5LmFtc3RhdC5vcmclMmZTdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMlMmZBYm91dFNXQiUyZk9mZmljZXJzMR8GBSJMb2dpbiB0byBzZWUgbWVtYmVycy1vbmx5IGNvbnRlbnQuZGQCEw9kFgQCAQ9kFgQCAQ8WAh8GBYIOPGRpdiBpZD0iQnV0dG9uQmFyTWVudSIgY2xhc3M9Ik1QQnV0dG9uTmF2IiBzdHlsZT0iZmxvYXQ6IGxlZnQ7Ij48dWwgY2xhc3M9ImxldmVsMSBzdGF0aWMiIHRhYmluZGV4PSIwIiBzdHlsZT0icG9zaXRpb246IHJlbGF0aXZlOyB3aWR0aDogYXV0bzsgZmxvYXQ6IGxlZnQ7IiByb2xlPSJtZW51YmFyIj48bGkgY2xhc3M9InN0YXRpYyIgcm9sZT0ibWVudWl0ZW0iIHN0eWxlPSJwb3NpdGlvbjogcmVsYXRpdmU7IGZsb2F0OiBsZWZ0OyI+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9Ib21lIiBpZD0ibWVnYWFuY2hvcjEiIGNsYXNzPSJsZXZlbDEiPkhvbWU8L2E+PC9saT48bGkgY2xhc3M9InN0YXRpYyIgcm9sZT0ibWVudWl0ZW0iIHN0eWxlPSJwb3NpdGlvbjogcmVsYXRpdmU7IGZsb2F0OiBsZWZ0OyI+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9BYm91dFNXQiIgaWQ9Im1lZ2FhbmNob3IyIiBjbGFzcz0ibGV2ZWwxIHNlbGVjdGVkIj5BYm91dCBTV0I8L2E+PC9saT48bGkgY2xhc3M9InN0YXRpYyIgcm9sZT0ibWVudWl0ZW0iIHN0eWxlPSJwb3NpdGlvbjogcmVsYXRpdmU7IGZsb2F0OiBsZWZ0OyI+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9TV0JfUHJvamVjdHMiIGlkPSJtZWdhYW5jaG9yMyIgY2xhc3M9ImxldmVsMSI+UHJvamVjdHM8L2E+PC9saT48bGkgY2xhc3M9InN0YXRpYyIgcm9sZT0ibWVudWl0ZW0iIHN0eWxlPSJwb3NpdGlvbjogcmVsYXRpdmU7IGZsb2F0OiBsZWZ0OyI+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9HZXRJbnZvbHZlZCIgaWQ9Im1lZ2FhbmNob3I0IiBjbGFzcz0ibGV2ZWwxIj5HZXQgSW52b2x2ZWQ8L2E+PC9saT48bGkgY2xhc3M9InN0YXRpYyIgcm9sZT0ibWVudWl0ZW0iIHN0eWxlPSJwb3NpdGlvbjogcmVsYXRpdmU7IGZsb2F0OiBsZWZ0OyI+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9SZXNvdXJjZXMiIGlkPSJtZWdhYW5jaG9yNSIgY2xhc3M9ImxldmVsMSI+UmVzb3VyY2VzPC9hPjwvbGk+PGxpIGNsYXNzPSJzdGF0aWMiIHJvbGU9Im1lbnVpdGVtIiBzdHlsZT0icG9zaXRpb246IHJlbGF0aXZlOyBmbG9hdDogbGVmdDsiPjxhIGhyZWY9Ii9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvR2V0SGVscHdpdGhhTmV3UHJvamVjdCIgaWQ9Im1lZ2FhbmNob3I2IiBjbGFzcz0ibGV2ZWwxIj5HZXQgSGVscCB3aXRoIGEgTmV3IFByb2plY3Q8L2E+PC9saT48bGkgY2xhc3M9InN0YXRpYyIgcm9sZT0ibWVudWl0ZW0iIHN0eWxlPSJwb3NpdGlvbjogcmVsYXRpdmU7IGZsb2F0OiBsZWZ0OyI+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9OZXdzbGV0dGVyIiBpZD0ibWVnYWFuY2hvcjciIGNsYXNzPSJsZXZlbDEiIHRhcmdldD0iX2JsYW5rIj5OZXdzbGV0dGVyPC9hPjwvbGk+PGxpIGNsYXNzPSJzdGF0aWMiIHJvbGU9Im1lbnVpdGVtIiBzdHlsZT0icG9zaXRpb246IHJlbGF0aXZlOyBmbG9hdDogbGVmdDsiPjxhIGhyZWY9Ii9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvRnJlbmNoR29vZ2xlIiBpZD0ibWVnYWFuY2hvcjgiIGNsYXNzPSJsZXZlbDEiPkZyYW7Dp2FpczwvYT48L2xpPjxsaSBjbGFzcz0ic3RhdGljIiByb2xlPSJtZW51aXRlbSIgc3R5bGU9InBvc2l0aW9uOiByZWxhdGl2ZTsgZmxvYXQ6IGxlZnQ7Ij48YSBocmVmPSIvU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzL1NwYW5pc2hHb29nbGUiIGlkPSJtZWdhYW5jaG9yOSIgY2xhc3M9ImxldmVsMSI+RXNwYcOxb2w8L2E+PC9saT48L3VsPjwvZGl2Pg0KZAIDDxYCHwYFxAw8ZGl2IGlkPSJtZWdhbWVudTIiIGNsYXNzPSJtZWdhbWVudSBzaGFkb3ciPjx0YWJsZT48dHI+PHRkPjxoMz48YSBocmVmPSIvU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzL0Fib3V0U1dCL1NXQk1pc3Npb24iPlNXQiBNaXNzaW9uPC9hPjwvaDM+PGgzPjxhIGhyZWY9Ii9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvQWJvdXRTV0IvT2ZmaWNlcnMxIj5PZmZpY2VyczwvYT48L2gzPjxoMz48YSBocmVmPSIvU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzL0Fib3V0U1dCL1Bvc2l0aW9ucyI+UG9zaXRpb25zPC9hPjwvaDM+PGgzPjxhIGhyZWY9Ii9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvQWJvdXRTV0IvU1dCQ2hhcnRlciI+U1dCIENoYXJ0ZXI8L2E+PC9oMz48aDM+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9BYm91dFNXQi9TV0JCcm9jaHVyZSI+U1dCIEJyb2NodXJlPC9hPjwvaDM+PGgzPjxhIGhyZWY9Ii9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvQWJvdXRTV0IvU1dCR3VpZGVsaW5lcyI+U1dCIEd1aWRlbGluZXM8L2E+PC9oMz48L3RkPjwvdHI+PC90YWJsZT48L2Rpdj48ZGl2IGlkPSJtZWdhbWVudTMiIGNsYXNzPSJtZWdhbWVudSBzaGFkb3ciPjx0YWJsZT48dHI+PHRkPjxoMz48YSBocmVmPSIvU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzL1NXQl9Qcm9qZWN0cy9DdXJyZW50UHJvamVjdHMiPkN1cnJlbnQgUHJvamVjdHM8L2E+PC9oMz48dWw+DQo8bGk+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9TV0JfUHJvamVjdHMvQ3VycmVudFByb2plY3RzL0hhaXRpMSI+SGlnaGxpZ2h0ZWQgcHJvamVjdDogSGFpdGk8L2E+PC9saT48L3VsPg0KPGgzPjxhIGhyZWY9Ii9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvU1dCX1Byb2plY3RzL1Bhc3RQcm9qZWN0cyI+UGFzdCBQcm9qZWN0czwvYT48L2gzPjx1bD4NCjxsaT48YSBocmVmPSIvU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzL1NXQl9Qcm9qZWN0cy9QYXN0UHJvamVjdHMvSGlnaGxpZ2h0ZWRwcm9qZWN0U2llcnJhTGVvbmUiPkhpZ2hsaWdodGVkIHByb2plY3Q6IFNpZXJyYSBMZW9uZTwvYT48L2xpPjwvdWw+DQo8L3RkPjwvdHI+PC90YWJsZT48L2Rpdj48ZGl2IGlkPSJtZWdhbWVudTUiIGNsYXNzPSJtZWdhbWVudSBzaGFkb3ciPjx0YWJsZT48dHI+PHRkPjxoMz48YSBocmVmPSIvU3RhdGlzdGljc1dpdGhvdXRCb3JkZXJzL1Jlc291cmNlcy9SZWxhdGVkTGlua3MiPlJlbGF0ZWQgTGlua3M8L2E+PC9oMz48aDM+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9SZXNvdXJjZXMvUHJlc3MiPlByZXNzPC9hPjwvaDM+PGgzPjxhIGhyZWY9Ii9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvUmVzb3VyY2VzL1B1YmxpY2F0aW9ucyI+UHVibGljYXRpb25zPC9hPjwvaDM+PGgzPjxhIGhyZWY9Ii9TdGF0aXN0aWNzV2l0aG91dEJvcmRlcnMvUmVzb3VyY2VzL1VwY29taW5nRXZlbnRzIj5VcGNvbWluZyBFdmVudHM8L2E+PC9oMz48aDM+PGEgaHJlZj0iL1N0YXRpc3RpY3NXaXRob3V0Qm9yZGVycy9SZXNvdXJjZXMvQ2xpZW50RmVlZGJhY2siPkNsaWVudCBGZWVkYmFjazwvYT48L2gzPjwvdGQ+PC90cj48L3RhYmxlPjwvZGl2PmQCBA9kFgICAQ8PFgQfBAUkQjk1Rjk3MDMtMTYwRi00OUM5LThFM0EtOUJENzQ4MzNBMjRCHgpTZWFyY2hUZXJtZWQWBgIBDxUBDEhMV2ViQ29udHJvbGQCAg8WAh8CaBYCAgEPFgIfBmVkAgQPZBYCAgEPZBYCAgEPZBYCAgEPZBYGZg8WAh8CaBYCAgEPDxYCHwZlZGQCAQ9kFgICAw8WAh4NV2F0ZXJtYXJrVGV4dAUGU2VhcmNoZAICD2QWAgIBDw8WAh8GZWRkAhUPZBYEAgEPFgIfAmgWAmYPZBYEAgEPFgIfAmgWAgIBDxYCHwYFCUFib3V0IFNXQmQCAw9kFgYCAQ88KwANAQAPFgIfAmhkZAIDDzwrAA0BAA8WAh8CaGRkAgcPFgIfAmgWCAIBDw8WAh8CaGRkAgMPDxYCHwJoZGQCBQ8PFgQfAygrBCRlYTlkMDFiZi1kYmZlLTQ2ZjYtYTY4MS1mZDc4OTBjZjEzNTcfAmhkZAIHDw8WBB8DKCsEJGVhOWQwMWJmLWRiZmUtNDZmNi1hNjgxLWZkNzg5MGNmMTM1Nx8CaGRkAgMPD2QWAh4FY2xhc3MFEU1QQ29udGVudEFyZWFIb21lFggCAQ8WAh8CaBYIAgEPDxYCHwJoZGQCAw8PFgIfAmhkZAIFDw8WBB8DKCsEJGVhOWQwMWJmLWRiZmUtNDZmNi1hNjgxLWZkNzg5MGNmMTM1Nx8CaGRkAgcPDxYEHwMoKwQkZWE5ZDAxYmYtZGJmZS00NmY2LWE2ODEtZmQ3ODkwY2YxMzU3HwJoZGQCBQ9kFgICAQ8PFgIfAmhkZAIJD2QWAgIBD2QWAgIBD2QWAmYPFgIfBgUIT2ZmaWNlcnNkAgsPFgIfAmgWCAIBDw8WAh8CaGRkAgMPDxYCHwJoZGQCBQ8PFgQfAygrBCRlYTlkMDFiZi1kYmZlLTQ2ZjYtYTY4MS1mZDc4OTBjZjEzNTcfAmhkZAIHDw8WBB8DKCsEJGVhOWQwMWJmLWRiZmUtNDZmNi1hNjgxLWZkNzg5MGNmMTM1Nx8CaGRkAhcPFgIfAmgWCAIBDw8WAh8CaGRkAgMPDxYCHwJoZGQCBQ8PFgQfAygrBCRlYTlkMDFiZi1kYmZlLTQ2ZjYtYTY4MS1mZDc4OTBjZjEzNTcfAmhkZAIHDw8WBB8DKCsEJGVhOWQwMWJmLWRiZmUtNDZmNi1hNjgxLWZkNzg5MGNmMTM1Nx8CaGRkGAEFE2N0bDAwJEJ1dHRvbkJhck1lbnUPD2QFCUFib3V0IFNXQmQTBzvNhWbIBAmkVZQvimf5frkeIA==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['MasterPageForm'];
+if (!theForm) {
+    theForm = document.MasterPageForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="http://ajax.aspnetcdn.com/ajax/4.5/6/WebForms.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+window.WebForm_PostBackOptions||document.write('<script type="text/javascript" src="/WebResource.axd?d=F0Morq4v7rOCG8I0T-5RkJVepItleW0-VbFYa1l65iJDNNjnGhw7fwOh1wPCsM33G6UZ4sU19yYpax2qkQPnfXqM92c1&amp;t=634896397540000000"><\/script>');//]]>
+</script>
+
+
+
+<script src="http://ajax.aspnetcdn.com/ajax/4.5/6/MenuStandards.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=J_8GDRxVg4SSkwLrLQSGb9cGdYIQGA0GmrlO7dl7_YZ1rijS0GsTreD-Z7pdPRmUmuBF4pHEuVUo-yEHwGLi1ZPT0GDKal4wFxXHbZbKOi_TakkA0&amp;t=27117261" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys._Application && Sys.Observer)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=J_8GDRxVg4SSkwLrLQSGb9cGdYIQGA0GmrlO7dl7_YZ1rijS0GsTreD-Z7pdPRmUmuBF4pHEuVUo-yEHwGLi1ZPT0GDKal4wFxXHbZbKOi_TakkA0&t=27117261"><\/script>');//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=mYTasG9FG0CePT9wtk85HSHUe1tBuhtb5RFFjeSdu5TxhmYngQxBE0zRaicPhmNwVVofiZ5BejRlgLqX7I9hn1UVSyUltNvKxutNumPcyE5i9uwwE6m5IF3k5VXBX_Sb3gSgPA2&amp;t=27117261" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(window.Sys && Sys.WebForms)||document.write('<script type="text/javascript" src="/ScriptResource.axd?d=mYTasG9FG0CePT9wtk85HSHUe1tBuhtb5RFFjeSdu5TxhmYngQxBE0zRaicPhmNwVVofiZ5BejRlgLqX7I9hn1UVSyUltNvKxutNumPcyE5i9uwwE6m5IF3k5VXBX_Sb3gSgPA2&t=27117261"><\/script>');function WebForm_OnSubmit() {
+null;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQXjcyWRUg7cmzVIMoxiy32B4yHNmFbXIAgDpFaH81MAwzsTayq62CSrMJu71kuEV8S72w8nT1V30RwyXDNYZLp7cZe3jaHNCaIWBeOPkphwa5ejIc=" />
+</div>
+        <div id="GlobalMain">
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'MasterPageForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+            
+        </div>
+        <!--mp_base--><div id="GlobalPopupContainer">
+												<div id="GlobalPopupContent" >
+												One moment, processing...<br /><br />                
+															<img ID="imgGlobalProcessing" src="http://cdn.hlm2.com/App_Themes/Common/images/ResourceLibrary/loading.gif" />
+												</div>				
+											 </div>
+        
+        
+        
+        
+        
+        
+        <div id="MPOuter">
+            <div id="MPimage" class="MPimage">
+                <div id="MPheader" class="MPheader">
+                    <div class="RightAux">
+                        <div id="MPAuxNav">
+                            <a href="#AuxMenu_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=YOpmlf4v6UTmXqXi6xch9nPud0LVAg_uTx_DfoswK9iYnPZbQEU1lQiiVSN7KdyhOBY1j2tGp7yVJMCFirtH-3qFE4I1&amp;t=634896397540000000" width="0" height="0" style="border-width:0px;" /></a><div CssSelectorClass="MPAuxNav" id="AuxMenu">
+	<ul class="level1">
+		<li><a class="level1 MPAuxNav" href="/StatisticsWithoutBorders/ASAHome">ASA Home</a></li><li><a class="level1 MPAuxNav" href="/StatisticsWithoutBorders/ASACommunity">ASA Community</a></li>
+	</ul>
+</div><a id="AuxMenu_SkipLink"></a>
+                        </div>
+                    </div>
+                    <div style="clear: both">
+                    </div>
+                    <div id="Logo">
+                        <a href='/StatisticsWithoutBorders' style=''>
+                            <img src='http://higherlogicdownload.s3.amazonaws.com/AMSTAT/ea9d01bf-dbfe-46f6-a681-fd7890cf1357/UploadedImages/e7db8042a9ab4bb0a551af9912c96fd2.jpg' alt="" /></a>
+                    </div>
+                    <div id="LeftToLogo">
+                        <div id="MPSlogan">
+                            &nbsp;</div>
+                    </div>
+                    <div id="RightToLogo">
+                        
+<div class='HLWelcome HLWelcomeHeader'>
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            $('.Picture_Profile').tipTip({ delay: 200 });
+        });
+    </script>
+    
+
+    
+    <div class="EndDiv">
+    </div>
+    <div id="Welcome_NotLoggedIn" class="Login">
+	
+        
+        <a id="Welcome_LoginLink" href="http://www.amstat.org/eseries/source/security/HLLoginRedirect.cfm?ReturnPath=http%3a%2f%2fcommunity.amstat.org%2fStatisticsWithoutBorders%2fAboutSWB%2fOfficers1">Login to see members-only content.</a>
+    
+</div>
+</div>
+
+                    </div>
+                </div>
+                <div style="clear: both">
+                </div>
+            </div>
+            
+                <div id="MPButtonBar">
+                    <div style="float: left">
+                        <div id="MegaMenuBar" class="MegaMenuBar">
+	
+                            <div id="ButtonBarMenu" class="MPButtonNav" style="float: left;"><ul class="level1 static" tabindex="0" style="position: relative; width: auto; float: left;" role="menubar"><li class="static" role="menuitem" style="position: relative; float: left;"><a href="/StatisticsWithoutBorders/Home" id="megaanchor1" class="level1">Home</a></li><li class="static" role="menuitem" style="position: relative; float: left;"><a href="/StatisticsWithoutBorders/AboutSWB" id="megaanchor2" class="level1 selected">About SWB</a></li><li class="static" role="menuitem" style="position: relative; float: left;"><a href="/StatisticsWithoutBorders/SWB_Projects" id="megaanchor3" class="level1">Projects</a></li><li class="static" role="menuitem" style="position: relative; float: left;"><a href="/StatisticsWithoutBorders/GetInvolved" id="megaanchor4" class="level1">Get Involved</a></li><li class="static" role="menuitem" style="position: relative; float: left;"><a href="/StatisticsWithoutBorders/Resources" id="megaanchor5" class="level1">Resources</a></li><li class="static" role="menuitem" style="position: relative; float: left;"><a href="/StatisticsWithoutBorders/GetHelpwithaNewProject" id="megaanchor6" class="level1">Get Help with a New Project</a></li><li class="static" role="menuitem" style="position: relative; float: left;"><a href="/StatisticsWithoutBorders/Newsletter" id="megaanchor7" class="level1" target="_blank">Newsletter</a></li><li class="static" role="menuitem" style="position: relative; float: left;"><a href="/StatisticsWithoutBorders/FrenchGoogle" id="megaanchor8" class="level1">Français</a></li><li class="static" role="menuitem" style="position: relative; float: left;"><a href="/StatisticsWithoutBorders/SpanishGoogle" id="megaanchor9" class="level1">Español</a></li></ul></div>
+
+                            <div id="megamenu2" class="megamenu shadow"><table><tr><td><h3><a href="/StatisticsWithoutBorders/AboutSWB/SWBMission">SWB Mission</a></h3><h3><a href="/StatisticsWithoutBorders/AboutSWB/Officers1">Officers</a></h3><h3><a href="/StatisticsWithoutBorders/AboutSWB/Positions">Positions</a></h3><h3><a href="/StatisticsWithoutBorders/AboutSWB/SWBCharter">SWB Charter</a></h3><h3><a href="/StatisticsWithoutBorders/AboutSWB/SWBBrochure">SWB Brochure</a></h3><h3><a href="/StatisticsWithoutBorders/AboutSWB/SWBGuidelines">SWB Guidelines</a></h3></td></tr></table></div><div id="megamenu3" class="megamenu shadow"><table><tr><td><h3><a href="/StatisticsWithoutBorders/SWB_Projects/CurrentProjects">Current Projects</a></h3><ul>
+<li><a href="/StatisticsWithoutBorders/SWB_Projects/CurrentProjects/Haiti1">Highlighted project: Haiti</a></li></ul>
+<h3><a href="/StatisticsWithoutBorders/SWB_Projects/PastProjects">Past Projects</a></h3><ul>
+<li><a href="/StatisticsWithoutBorders/SWB_Projects/PastProjects/HighlightedprojectSierraLeone">Highlighted project: Sierra Leone</a></li></ul>
+</td></tr></table></div><div id="megamenu5" class="megamenu shadow"><table><tr><td><h3><a href="/StatisticsWithoutBorders/Resources/RelatedLinks">Related Links</a></h3><h3><a href="/StatisticsWithoutBorders/Resources/Press">Press</a></h3><h3><a href="/StatisticsWithoutBorders/Resources/Publications">Publications</a></h3><h3><a href="/StatisticsWithoutBorders/Resources/UpcomingEvents">Upcoming Events</a></h3><h3><a href="/StatisticsWithoutBorders/Resources/ClientFeedback">Client Feedback</a></h3></td></tr></table></div>
+                        
+</div>
+                    </div>
+                    <div id="MPSearchBlock">
+                        
+<div class='HLWebControl'>
+    
+    <div id="SearchControl_ContentPanel" class="Content">
+        <div id="SearchControl_Panel1">
+	
+            <div id="SearchControl_WholeSearch" class="SearchWhole" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;SearchControl_SearchWhole&#39;)">
+		
+                <table>
+                    <tr id="SearchControl_TrWholeSearch">
+			<td>
+                            <input name="ctl00$SearchControl$WholeSearchTerm" type="text" id="SearchControl_WholeSearchTerm" class="TextBox" />
+                            <input type="hidden" name="ctl00$SearchControl$WholeSearchTermWaterMark_ClientState" id="SearchControl_WholeSearchTermWaterMark_ClientState" />
+                        </td>
+			<td>
+                            <input type="submit" name="ctl00$SearchControl$SearchWhole" value="" id="SearchControl_SearchWhole" class="Button" />
+                        </td>
+		</tr>
+		
+                </table>
+            
+	</div>
+        
+</div>
+    </div>
+</div>
+
+                    </div>
+                </div>
+                <div class="MenuBarUnderline">
+                </div>
+            
+            <div id="MPContentSection" class="MPContentSection">
+	
+                
+                <div id="MPContentArea" class="MPContentAreaHome">
+		
+                    
+                    <div style="clear: both;">
+                    </div>
+                    <div id="BreadCrumb" class="BreadCrumb">
+                        <a href='/StatisticsWithoutBorders'>Home</a>
+                        <span id="SiteMapPath1"><a href="#SiteMapPath1_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=YOpmlf4v6UTmXqXi6xch9nPud0LVAg_uTx_DfoswK9iYnPZbQEU1lQiiVSN7KdyhOBY1j2tGp7yVJMCFirtH-3qFE4I1&amp;t=634896397540000000" width="0" height="0" style="border-width:0px;" /></a><span>
+                                >
+                            </span><span><a href="/AMSTAT/StatisticsWithoutBorders/AboutSWB">About SWB</a></span><span>
+                                >
+                            </span><span>Officers</span><a id="SiteMapPath1_SkipLink"></a></span>
+                    </div>
+                    
+    
+    
+
+                    <div id="PrinterFriendly" class="AboveContentBarRight">
+                        <img src="/App_Themes/Common/images/printerfriendly.png" alt="Printer-friendly version"
+                            style="cursor: pointer;" onclick="hl_common_util_printerFriendly();" />
+                    </div>
+                    <div style="clear: both;">
+                    </div>
+                    <div id="HomePlaceHolder">
+                        <div id="PageTitleContainer">
+                            <h1 id="PageTitleH1">Officers</h1>
+                        </div>
+                        
+                        
+                        
+    <div id="MainCopy_ContentWrapper">
+        
+        <div class="ContentItemHtml"><div class="HtmlContent"><font color="#17365d"><font size="2"><font color="#366092"><strong>
+<p>
+</p>
+<table style="width: 750px; height: 116px;">
+    <tbody>
+        <tr>
+            <td><font size="3">&nbsp;<strong><font color="#595959">JUSTIN FISHER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font></td>
+            <td><font size="3">&nbsp;<font color="#595959"><strong>REBECCA SCHERZER, PhD</strong></font>&nbsp;&nbsp;&nbsp; </font></td>
+        </tr>
+        <tr>
+            <td><font color="#a5a5a5" size="3">&nbsp;<font color="#595959">Chair</font></font></td>
+            <td><font size="3">&nbsp;<font color="#595959">Vice-Chair</font></font></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><font size="3">&nbsp;<strong><font color="#595959">SOWMYA RAO</font></strong></font></td>
+            <td><font size="3">&nbsp;<strong><font color="#595959">STEVE PIERSON</font></strong></font></td>
+        </tr>
+        <tr>
+            <td><font color="#a5a5a5" size="3">&nbsp;<font color="#595959">Secretary</font></font></td>
+            <td><font size="3">&nbsp;<font color="#595959">Ex-officio Board Member</font></font></td>
+        </tr>
+        <tr>
+            <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <p align="center">&nbsp;<a href="mailto:statisticswithoutborders@gmail.com" target="_blank" re_target="_blank">statisticswithoutborders@<wbr>gmail.com</a><span style="color: blue; line-height: 115%;"><font color="#0070c0" size="2">&nbsp;</font></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;<br>
+&nbsp;</p>
+</strong></font></font></font>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<strong><font color="#595959" size="4"><img style="width: 200px; height: 154px; float: left;" src="http://higherlogicdownload.s3.amazonaws.com/AMSTAT/ea9d01bf-dbfe-46f6-a681-fd7890cf1357/UploadedImages/2011Photo_FisherJS.JPG">JUSTIN FISHER</font></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+<font size="3">Chair<br>
+<br>
+</font><font size="2">Justin Fisher is a Senior Statistician at the U.S. Government Accountability Office. Justin works on evaluations of a wide variety of government programs and focuses methodologically on sampling and&nbsp;variance estimation. Prior to GAO, he held positions at various United Nations agencies including UNCTAD, UNESCO and UNESCAP. In addition to his responsibilities at GAO, he is also a lecturer in the Elliott School of International Affairs at The George Washington University, where he teaches a graduate-level statistics course.&nbsp; As a member of Statistics Without Borders, he has traveled to Haiti and North Korea to assist with projects.</font></p>
+<div style="padding: 0in 0in 1pt;">
+<p class="MsoNormal"><o:p><font size="3" face="Calibri">&nbsp;</font></o:p></p>
+</div>
+<br>
+<strong><font color="#595959">&nbsp;<br>
+</font></strong><img style="width: 250px; height: 200px; float: left;" alt="" src="http://higherlogicdownload.s3.amazonaws.com/AMSTAT/ea9d01bf-dbfe-46f6-a681-fd7890cf1357/UploadedImages/rscherzer.jpg"><font color="#595959" size="4"><strong>REBECCA SCHERZER, PhD<br>
+</strong></font>&nbsp;<font size="3">Vice-Chair</font>
+<blockquote style="margin-right: 0px;" dir="ltr">
+<p class="MsoNormal"><span style="color: black; line-height: 115%; font-family: &quot;verdana&quot;,&quot;sans-serif&quot;; font-size: 10pt;"><font face="Arial">Rebecca Scherzer, PhD is the principal research statistician on the NIH-funded FRAM study (Fat Redistribution and Metabolic Change in HIV Infection) at the University of California at San Francisco.&nbsp; In this role, Rebecca investigates the progression of fat distribution, metabolic changes, and contributors to cardiovascular disease in HIV-infected patients.&nbsp; Prior to joining FRAM, Rebecca spent several years in the pharmaceutical industry as a senior statistical manager.&nbsp; Rebecca served as chair of the SWB New Projects Committee from January to July 2010, and is presently Vice Chair of SWB.</font></span><span style="color: rgb(84, 141, 212); font-family: &quot;verdana&quot;,&quot;sans-serif&quot;;"><font size="3">&nbsp;<o:p></o:p></font></span></p>
+<font color="#595959">
+<div style="padding: 0in 0in 1pt;">
+<p class="MsoNormal"><o:p><font color="#000000" size="3" face="Calibri"><br>
+<br>
+<br>
+&nbsp;</font></o:p></p>
+</div>
+<p><font size="4"><strong><img src="http://higherlogicdownload.s3.amazonaws.com/AMSTAT/ea9d01bf-dbfe-46f6-a681-fd7890cf1357/UploadedImages/SowmyaRao.JPG" style="width: 175px; height: 171px; float: left;">SOWMYA RAO<br>
+</strong></font><font color="#595959"><font size="3">Secretary<br>
+</font><br>
+</font></p>
+<p><font color="#000000" size="2">Sowmya Rao is an Associate Professor at the University of Massachusetts Medical School, Worcester, MA and the Veterans Administration Medical Center, Bedford, MA primarily working in the area of health services research. She is interested in global health and has been a member of SWB since 2009. In 2010, she enjoyed the opportunity to assist UNICEF on a health project in Sierra Leone. She previously served as the secretary of the SWB New Projects Committee and has also served as a secretary on other boards.
+</font></p>
+<br>
+<br>
+<br>
+<font color="#595959">
+<div style="padding: 0in 0in 1pt;">
+<p class="MsoNormal"><o:p><font color="#000000" size="3" face="Calibri">&nbsp;</font></o:p></p>
+</div>
+<p><font color="#595959"><strong><font size="4"><img style="width: 175px; height: 234px; float: left;" alt="" src="http://higherlogicdownload.s3.amazonaws.com/AMSTAT/ea9d01bf-dbfe-46f6-a681-fd7890cf1357/UploadedImages/Pierson-color-copy.png">STEVE PIERSON<br>
+</font></strong><font size="3">E<font color="#595959">x-officio Board Member</font></font></font></p>
+</font>
+<p><font color="#000000" size="2">Steve has been ASA Director of Science Policy since March, 2008. Previously, he was Head of Government Relations for the American Physical Society and Associate Professor of Physics at Worcester Polytechnic Institute in Worcester, MA.&nbsp;</font></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</font></blockquote></div><div class="HtmlFooter"></div></div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div id="MainCopy_extraPanel">
+			
+        
+		</div>
+        
+    </div>
+
+                        
+                        
+                    </div>
+                    
+                
+	</div>
+            
+</div>
+            
+            <div style="clear: both;">
+            </div>
+            <div id="MPFooter" class="MPFooter">
+                <div class="Footer">
+                    <div id="FooterContent">
+	
+                    
+</div>
+                    <div id="MPBottomMenu" class="MPBottomMenu" align="center">
+                        
+                        
+                    </div>
+                    <div id="MPCopyright">
+                        Copyright © 2009 Statistics Without Borders. All rights reserved.
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;">
+        </div>
+        <div id="MPFooterLink">
+            <a href="http://www.higherlogic.com">Powered by Higher Logic's Connected Community</a>
+        </div>
+        
+<script type='text/javascript'>$(document).ready(function() {
+hl_core_ui_jkmegamenu.definemenu('megaanchor2', 'megamenu2', 'mouseover');hl_core_ui_jkmegamenu.definemenu('megaanchor3', 'megamenu3', 'mouseover');hl_core_ui_jkmegamenu.definemenu('megaanchor5', 'megamenu5', 'mouseover');}); jQuery(document).ready(function ($) { hl_core_ui_jkmegamenu.render($) }); </script>
+
+<script type="text/javascript">
+//<![CDATA[
+var _suppressGlobalPopupContainer = false;
+			  
+									Sys.Application.add_load(GlobalApplicationLoadHandler);
+
+									function GlobalApplicationLoadHandler(sender, args) {
+										var prm = Sys.WebForms.PageRequestManager.getInstance();
+										if (!prm.get_isInAsyncPostBack()) {
+											prm.add_initializeRequest(initRequest);
+											prm.add_endRequest(endRequest);
+										}
+									}
+									function initRequest(sender, args) {
+										if (!_suppressGlobalPopupContainer) {
+											hl_common_ui_blockUI();
+										}
+									}
+
+									function endRequest(sender, args) {
+										 hl_common_ui_unBlockUI();
+									}//]]>
+</script>
+<script type='text/javascript'>new Sys.WebForms.Menu({ element: 'AuxMenu', disappearAfter: 500, orientation: 'horizontal', tabIndex: 0, disabled: false });</script>
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager1_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.1.50731.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3af8fb2a65-e23a-483b-b20e-6db6ef539a22%3a923aa3cc%3a782b16ab%3a398f28bc" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.TextBoxWatermarkBehavior, {"ClientStateFieldID":"SearchControl_WholeSearchTermWaterMark_ClientState","WatermarkCssClass":"Watermark","WatermarkText":"Search","id":"SearchControl_WholeSearchTermWaterMark"}, null, null, $get("SearchControl_WholeSearchTerm"));
+});
+//]]>
+</script>
+</form>
+    </div>
+    
+    
+</body>
+</html>
