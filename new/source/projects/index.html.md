@@ -1,5 +1,4 @@
 ---
-title: Statistics Without Borders
 body_class: projects
 ---
 

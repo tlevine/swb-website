@@ -1,6 +1,5 @@
 ---
-title: Statistics Without Borders
-body_class: index
+body_class: resources
 ---
 
 ## Statistics Without Borders materials
