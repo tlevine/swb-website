@@ -34,16 +34,17 @@
     -# Stylesheets
     = stylesheet_link_tag 'application'
   %body{class: current_page.data.body_class || 'page'}
-    %nav
-      %ul
-        %li
-          %a{ :href => '/' } Home
-        %li
-          %a{ :href => '/about' } About
-        %li
-          %a{ :href => '/projects' } Projects
-        %li
-          %a{ :href => '/resources' } Resources
+    #nav
+      %nav
+        %ul
+          %li
+            %a{ :href => '/' } Home
+          %li
+            %a{ :href => '/about' } About
+          %li
+            %a{ :href => '/projects' } Projects
+          %li
+            %a{ :href => '/resources' } Resources
     #main
       = yield
     -# Javascripts
