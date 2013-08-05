@@ -1,0 +1,775 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="JSM, Joint Statistical Meetings, Statistics, statisticians" />
+<meta name="description" content="JSM (the Joint Statistical Meetings) is the largest gathering of statisticians held in North America. It is held jointly with the American Statistical Association, the International Biometric Society (ENAR and WNAR), the Institute of Mathematical Statistics, the Statistical Society of Canada, and the International Chinese Statistical Association, and the International Indian Statistical Association. Attended by more than 6,000 people, meeting activities include oral presentations, panel sessions, poster presentations, continuing education courses, an exhibit hall (with state-of-the-art statistical products and opportunities), career placement services, society and section business meetings, committee meetings, social activities and networking opportunities. " />
+<title>2013 Joint Statistical Meetings - Celebrating the International Year of Statistics - Montr&eacute;al, Qu&eacute;bec, Canada</title>	
+	
+<title>JSM 2013 Online Program</title>
+
+	<link rel="STYLESHEET" type="text/css" href="../jsm2013.css">
+	<link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" media="print" href="../print.css" />
+
+
+
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+function TryMobile(){
+if (confirm('Do you want to view the Mobile Version?')) { 
+window.location.href = "http://www.amstat.org/jsmmobile"; 
+} 
+return false; // cancel the click event always 
+} 
+//-->
+</SCRIPT> 
+
+	<script language="JavaScript" type="text/javascript">
+	//<!--
+	
+	function getRadioButtonValue (radio)
+	{   for (var i = 0; i < radio.length; i++)
+	    {   if (radio[i].checked) { break }
+	    }
+	    return radio[i].value
+	}
+	
+	
+	function isInteger(value) {
+	  return (parseInt(value) == value);
+	}
+	
+	function QuickSearch(f)
+	{
+		if (getRadioButtonValue(f.radQuickSearch) == "Session")
+		{
+			if (isInteger(f.SearchCriteria.value) == false)
+			{
+				formsubmit = "false";
+				alert('Session number must be numeric');
+				return false
+			}
+			else
+			{
+				return true
+		}
+		}
+		else if (getRadioButtonValue(f.radQuickSearch) == "Activity")
+		{
+			if (isInteger(f.SearchCriteria.value) == false)
+			{
+				formsubmit = "false";
+				alert('Activity number must be numeric');
+				return false
+			}
+			else
+			{
+				return true
+			}
+		}
+			else if (getRadioButtonValue(f.radQuickSearch) == "Course")
+		{
+			if (isInteger(f.SearchCriteria.value) == false)
+			{
+				formsubmit = "false";
+				alert('CE Course number must be numeric');
+				return false
+		}
+				else
+			{
+				return true
+			}
+		}
+		return true;
+	
+	}
+
+	//-->
+	</script>
+
+	</head>
+
+
+<body>
+<div id="container">
+	<div id="header_scrunched"><div style="margin-top:40px;padding-right:20px;float:right"><a href="/meetings/jsm/2013/index.cfm">JSM 2013 Home</a></div></div>
+	<div id="content">
+		<div id="content_full">
+			
+			<p align="center">
+				<h2 align="center"><a href="index.cfm">JSM 2013 Online Program</a></h2>
+			
+			</div> 
+			<div align="center">
+
+			 	
+				<a href="MyProgram.cfm" >My Program</a>
+			<br />
+			
+
+			</div>
+			</p>
+		 
+
+	
+
+	<div id="separator"><h2>Main Search</h2></div>
+	<form action="MainSearchResults.cfm" method="post">
+		<table border="0" cellpadding="4" cellspacing="0" bordercolor="#000066" width="100%">
+			<tr>
+				<td valign="top" colspan="2" width="30%" class="box">
+					<h3>Invited</h3>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'1x1'"> Papers
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'1x2'"> Panel
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'1x3'"> Posters
+					<br />
+				</td>
+				<td width="5%">&nbsp;</td>
+				<td valign="top" colspan="2" width="30%" class="box">
+					<h3>Topic Contributed</h3>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'4x1'"> Papers
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'4x2'"> Panel
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'4x3'"> Posters
+					<br />
+				</td>
+				<td width="5%">&nbsp;</td>
+				<td valign="top" colspan="2" width="30%" class="box">
+					<h3>Contributed</h3>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'2x1'"> Papers
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'2x3'"> Posters
+					<br />
+				</td>
+			</tr>
+			<tr>
+				<td width="30%" class="box" valign="top" colspan="2">
+					<h3>Continuing Education</h3>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'6x7'"> Courses
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'6x10'"> Technology Workshops
+				</td>
+				<td width="5%">&nbsp;</td>
+				<td width="30%" valign="top" colspan="2" class="box">
+					<h3>Roundtables</h3>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'5x12'"> A.M. Discussion 
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'5x4'"> P.M. Discussion 
+					<br />
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="chkSessionSubType" value="'5x5'"> Speaker with Lunch
+					<br />
+				</td>
+				<td width="5%">&nbsp;</td>
+				<td width="30%" valign="top"  colspan="2" class="box">
+					<h3>Other</h3>
+					&nbsp;<input type="checkbox" name="chkSessionSubType" value="'3x6','3x9'"> Cmte/Business/ICW 
+					<br />
+					&nbsp;<input type="checkbox" name="chkSessionSubType" value="'3x8'"> Special Presentations
+					<br />
+					
+					
+				</td>
+			</tr>
+			<tr>
+				<td colspan="8">&nbsp;</td>
+			</tr>
+			<tr bgcolor="white">
+				<td colspan="2" align="center">
+					<h3 align="right">Search By Sponsor: </h3>
+				</td>
+				<td colspan="6">
+					<select name="sponsorid">
+						<option value="All" selected>All Sponsors</option>
+						
+						<option value="195">ASA</option>
+						
+						<option value="589">ASA 175th Anniversary Steering Committee</option>
+						
+						<option value="573">ASA Advisory Committee on Climate Change Policy</option>
+						
+						<option value="406">ASA Board of Directors</option>
+						
+						<option value="471">ASA Caucus of Academic Representatives</option>
+						
+						<option value="435">ASA Special Interest Group for Medical Devices and Diagnostics</option>
+						
+						<option value="55">ASA-MAA Joint Committee on Undergraduate Statistics</option>
+						
+						<option value="564">ASA/SIAM Book Series Editorial Board</option>
+						
+						<option value="617">Accreditation Committee</option>
+						
+						<option value="569">Accreditation Implementation Committee</option>
+						
+						<option value="625">Ad Hoc Advisory Committee on Forensic Science</option>
+						
+						<option value="227">Advisory Committee on Continuing Education</option>
+						
+						<option value="628">Aptiv Solutions</option>
+						
+						<option value="349">Association of Clinical and Translational Statisticians (formerly GCRC)</option>
+						
+						<option value="627">Bernoulli Society</option>
+						
+						<option value="403">Biometrics Editorial Board</option>
+						
+						<option value="201">Biometrics Section</option>
+						
+						<option value="202">Biopharmaceutical Section</option>
+						
+						<option value="566">Biostatistics Journal</option>
+						
+						<option value="443">Brigham Young University</option>
+						
+						<option value="203">Business and Economic Statistics Section</option>
+						
+						<option value="339">CAUSE</option>
+						
+						<option value="218">CHANCE</option>
+						
+						<option value="465">CRC Press</option>
+						
+						<option value="296">Cancer Center Biostatistics Directors</option>
+						
+						<option value="351">Carnegie Mellon Alumni</option>
+						
+						<option value="257">Caucus for Women in Statistics</option>
+						
+						<option value="474">Centers for AIDS Research Statisticians</option>
+						
+						<option value="299">Christian Statisticians Informal Discussion Group</option>
+						
+						<option value="582">Colorado State University</option>
+						
+						<option value="453">Columbia University</option>
+						
+						<option value="558">Committee Councils (Awards)</option>
+						
+						<option value="560">Committee Councils (Education)</option>
+						
+						<option value="559">Committee Councils (Memberships)</option>
+						
+						<option value="561">Committee Councils (Professional Issues and Visibility)</option>
+						
+						<option value="347">Committee of Presidents of Statistical Societies</option>
+						
+						<option value="57">Committee of Representatives to AAAS</option>
+						
+						<option value="328">Committee on ASA Archives and Historical Materials</option>
+						
+						<option value="58">Committee on Applied Statisticians</option>
+						
+						<option value="60">Committee on Career Development</option>
+						
+						<option value="496">Committee on Excellence in Statistical Reporting</option>
+						
+						<option value="511">Committee on Federally Funded Research</option>
+						
+						<option value="372">Committee on Fellows</option>
+						
+						<option value="63">Committee on Gay and Lesbian Concerns in Statistics</option>
+						
+						<option value="232">Committee on International Relations in Statistics</option>
+						
+						<option value="233">Committee on Membership Retention and Recruitment</option>
+						
+						<option value="234">Committee on Minorities in Statistics</option>
+						
+						<option value="69">Committee on Privacy and Confidentiality</option>
+						
+						<option value="322">Committee on Professional Ethics</option>
+						
+						<option value="306">Committee on Publications</option>
+						
+						<option value="236">Committee on Scientific Freedom and Human Rights</option>
+						
+						<option value="238">Committee on Statistics and Disability</option>
+						
+						<option value="239">Committee on Women in Statistics</option>
+						
+						<option value="335">Communications in Statistics Editorial Board</option>
+						
+						<option value="556">Conference on Statistical Practice Steering Committee</option>
+						
+						<option value="213">Council of Chapters</option>
+						
+						<option value="326">Council of Sections</option>
+						
+						<option value="373">Current Index to Statistics Management Committee</option>
+						
+						<option value="329">Cytel Software Corporation</option>
+						
+						<option value="307">Deming Lectureship Committee</option>
+						
+						<option value="310">Development Committee</option>
+						
+						<option value="263">Drug Information Association</option>
+						
+						<option value="196">ENAR</option>
+						
+						<option value="304">Eli Lilly and Company</option>
+						
+						<option value="513">Finance Committee</option>
+						
+						<option value="575">Friends of Australasia</option>
+						
+						<option value="27">General Methodology</option>
+						
+						<option value="472">Google</option>
+						
+						<option value="209">Government Statistics Section</option>
+						
+						<option value="211">Health Policy Statistics Section</option>
+						
+						<option value="574">Host Chapter-Montreal</option>
+						
+						<option value="599">IBM</option>
+						
+						<option value="606">IMS</option>
+						
+						<option value="271">International Chinese Statistical Association</option>
+						
+						<option value="272">International Indian Statistical Association</option>
+						
+						<option value="620">International Society for Bayesian Analysis (ISBA)</option>
+						
+						<option value="324">International Statistical Institute</option>
+						
+						<option value="311">Iowa State University</option>
+						
+						<option value="331">Isolated Statisticians</option>
+						
+						<option value="377">JABES-Journal of Agricultural, Biological, and Environmental Statistics</option>
+						
+						<option value="344">JASA Editorial Board</option>
+						
+						<option value="215">JASA, Applications and Case Studies</option>
+						
+						<option value="214">JASA, Theory and Methods</option>
+						
+						<option value="378">JBES-Journal of Business & Economic Statistics</option>
+						
+						<option value="447">JCGS Management Committee</option>
+						
+						<option value="379">JCGS-Journal of Computational and Graphical Statistics</option>
+						
+						<option value="624">JMP</option>
+						
+						<option value="588">JOS Editorial Board Meeting</option>
+						
+						<option value="286">JSE-Journal of Statistics Education</option>
+						
+						<option value="523">Journal Statistics in Medicine Editorial Board</option>
+						
+						<option value="583">Journal of Nonparmametric Statistics</option>
+						
+						<option value="354">Journal of Quality Technology Editorial Review Board</option>
+						
+						<option value="584">Journal of Quantitative Analysis in Sports</option>
+						
+						<option value="509">Journal on Statistical Analysis and Data Mining</option>
+						
+						<option value="630">Journal on Uncertainty Quantification</option>
+						
+						<option value="436">Korean International Statistical Society</option>
+						
+						<option value="546">Leadership Support Council</option>
+						
+						<option value="635">Liberty Mutual Insurance</option>
+						
+						<option value="225">Memorial</option>
+						
+						<option value="609">Mental Health Statistics Section</option>
+						
+						<option value="278">Mu Sigma Rho</option>
+						
+						<option value="535">NISS/ASA Writing Workshop</option>
+						
+						<option value="524">National Center for Complementary and Alternative Medicine</option>
+						
+						<option value="580">National Institute of Health/National Cancer Institute</option>
+						
+						<option value="280">National Institute of Statistical Sciences</option>
+						
+						<option value="241">Noether Award Committee</option>
+						
+						<option value="317">North Carolina State University</option>
+						
+						<option value="563">Ohio State University</option>
+						
+						<option value="526">Pearson</option>
+						
+						<option value="623">Penn State University</option>
+						
+						<option value="359">Pfizer, Inc.</option>
+						
+						<option value="632">Pharmaceutical Statistics</option>
+						
+						<option value="449">Purdue University</option>
+						
+						<option value="21">Quality and Productivity Section</option>
+						
+						<option value="489">RTI International</option>
+						
+						<option value="477">Rice University</option>
+						
+						<option value="466">Russian and Former Soviet Union Statisticians</option>
+						
+						<option value="527">Rutgers University</option>
+						
+						<option value="528">SAS</option>
+						
+						<option value="243">SPAIG Committee</option>
+						
+						<option value="199">SSC</option>
+						
+						<option value="612">STAT-HAWKERS</option>
+						
+						<option value="529">STATCOM</option>
+						
+						<option value="355">Salford Systems</option>
+						
+						<option value="242">Scientific and Public Affairs Advisory Committee</option>
+						
+						<option value="502">Section for Statistical Programmers and Analysts</option>
+						
+						<option value="200">Section on Bayesian Statistical Science</option>
+						
+						<option value="28">Section on Nonparametric Statistics</option>
+						
+						<option value="394">Section on Physical and Engineering Sciences</option>
+						
+						<option value="22">Section on Risk Analysis</option>
+						
+						<option value="605">Section on Statistical Computing</option>
+						
+						<option value="205">Section on Statistical Consulting</option>
+						
+						<option value="206">Section on Statistical Education</option>
+						
+						<option value="210">Section on Statistical Graphics</option>
+						
+						<option value="501">Section on Statistical Learning and Data Mining</option>
+						
+						<option value="207">Section on Statistics and the Environment</option>
+						
+						<option value="237">Section on Statistics in Defense and National Security</option>
+						
+						<option value="208">Section on Statistics in Epidemiology</option>
+						
+						<option value="616">Section on Statistics in Imaging</option>
+						
+						<option value="212">Section on Statistics in Marketing</option>
+						
+						<option value="24">Section on Statistics in Sports</option>
+						
+						<option value="26">Section on Teaching of Statistics in the Health Sciences</option>
+						
+						<option value="572">Significance Magazine</option>
+						
+						<option value="23">Social Statistics Section</option>
+						
+						<option value="343">Southern Methodist University</option>
+						
+						<option value="428">Statistica Sinica</option>
+						
+						<option value="626">Statistical Learning and Data Mining Section</option>
+						
+						<option value="411">Statistical and Applied Mathematical Sciences Institute</option>
+						
+						<option value="571">Statistics Surveys Online Journal</option>
+						
+						<option value="533">Statistics Without Borders</option>
+						
+						<option value="475">Statistics in Biopharmaceutical Research Journal</option>
+						
+						<option value="611">Statistics in Business Schools Interest Group</option>
+						
+						<option value="578">Statistics, Politics and Policy Editoral Board</option>
+						
+						<option value="25">Survey Research Methods Section</option>
+						
+						<option value="217">Technometrics</option>
+						
+						<option value="390">Technometrics Management Committee</option>
+						
+						<option value="338">Texas A&M University</option>
+						
+						<option value="35">The American Statistician</option>
+						
+						<option value="340">The University of North Carolina at Chapel Hill</option>
+						
+						<option value="336">Transportation Research Board</option>
+						
+						<option value="366">Transportation Statistics Interest Group</option>
+						
+						<option value="421">University of California, Los Angeles</option>
+						
+						<option value="357">University of Michigan</option>
+						
+						<option value="634">University of Minnesota</option>
+						
+						<option value="434">University of Washington</option>
+						
+						<option value="409">University of Wisconsin-Madison</option>
+						
+						<option value="197">WNAR</option>
+						
+						<option value="636">Westat</option>
+						
+						<option value="633">Wiley</option>
+						
+						<option value="631">Working group to revise the Curriculum Guidelines for Undergraduate Programs in Statistical Sciences</option>
+						
+						<option value="621">Yale University Alumni Reception</option>
+						
+					</select>
+				</td>
+			</tr>
+			<tr bgcolor="white">
+				<td colspan="2">
+					<h3 align="right">Main Sponsor Only</h3>
+				</td>
+				<td colspan="6">
+					<input type="Checkbox" name="cbxMainSponsor" value="1">
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="8">
+					<table width="100%" cellpadding="0" cellspacing="4" border="0">
+						<tr>
+							<h3 align="center">Meeting Days</h3>
+							
+							<td class="box" align="center">
+							
+							&nbsp;&nbsp;
+							<input type="checkbox" name="chkDay" value="'08/02/2013'">
+							&nbsp;&nbsp;
+							<br />&nbsp;&nbsp;Fri 8/2&nbsp;&nbsp;
+						</td>
+						
+							<td class="box" align="center">
+							
+							&nbsp;&nbsp;
+							<input type="checkbox" name="chkDay" value="'08/03/2013'">
+							&nbsp;&nbsp;
+							<br />&nbsp;&nbsp;Sat 8/3&nbsp;&nbsp;
+						</td>
+						
+							<td class="box" align="center">
+							
+							&nbsp;&nbsp;
+							<input type="checkbox" name="chkDay" value="'08/04/2013'">
+							&nbsp;&nbsp;
+							<br />&nbsp;&nbsp;Sun 8/4&nbsp;&nbsp;
+						</td>
+						
+							<td class="box" align="center">
+							
+							&nbsp;&nbsp;
+							<input type="checkbox" name="chkDay" value="'08/05/2013'">
+							&nbsp;&nbsp;
+							<br />&nbsp;&nbsp;Mon 8/5&nbsp;&nbsp;
+						</td>
+						
+							<td class="box" align="center">
+							
+							&nbsp;&nbsp;
+							<input type="checkbox" name="chkDay" value="'08/06/2013'">
+							&nbsp;&nbsp;
+							<br />&nbsp;&nbsp;Tue 8/6&nbsp;&nbsp;
+						</td>
+						
+							<td class="box" align="center">
+							
+							&nbsp;&nbsp;
+							<input type="checkbox" name="chkDay" value="'08/07/2013'">
+							&nbsp;&nbsp;
+							<br />&nbsp;&nbsp;Wed 8/7&nbsp;&nbsp;
+						</td>
+						
+							<td class="box" align="center">
+							
+							&nbsp;&nbsp;
+							<input type="checkbox" name="chkDay" value="'08/08/2013'">
+							&nbsp;&nbsp;
+							<br />&nbsp;&nbsp;Thu 8/8&nbsp;&nbsp;
+						</td>
+						
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="8">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="4" align="center">
+					<input type="submit" name="btnSubmit" value="View Session Summaries">
+				</td>
+				<td colspan="4" align="center">
+					<input type="submit" name="btnSubmit" value="View Session Details">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	
+	<br />
+	
+	<div id="separator"><h2>Quick Search</h2></div>
+	<table border="0" cellpadding="4" cellspacing="0" bordercolor="#FFFFFF" width="100%">
+		<tr>
+			<td align="center" bgcolor="#FFFFFF">
+				Search By Session Number/Activity Number/CE Course Number/Session Title:<br /><br />
+				<form action="MainSearchResults.cfm" name="frmQuickSearch" method="post" onsubmit="return QuickSearch(this);">
+					<h3>Choose the search type:</h3>
+					<input type="Radio" name="radQuickSearch" value="Title" checked>Session Title*
+					
+					<input type="Radio" name="radQuickSearch" value="Activity" >Activity # (1-699)
+					
+					<input type="Radio" name="radQuickSearch" value="Course">CE Course Number
+					<input type="Radio" name="radQuickSearch" value="Session" >Session ID (2nnnnn)
+					<br /><br />
+					<input type="Text" name="SearchCriteria"  size="30">
+					<br /><br />
+					<input type="submit" name="btnSubmit" value="QuickSearch">
+				</form>
+				<p>* You may enter any portion of the title. For example, searching for "Test" will return all sessions whose title includes the word "Test".</p>
+			</td>
+		</tr>
+	</table>
+	<br />
+	
+	<div id="separator"><h2>People/Affiliation Search</h2></div>
+	<table width="100%">
+		<tr>
+			<td align="center" bgcolor="#FFFFFF">
+				Search by corresponding letter, last name, or affiliation for any organizer, chair, presenter, or discussant:<br /><br />
+				
+						<a href="nameAffilSearch.cfm?letter=A" style="font-size : 1.4em;">A</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=B" style="font-size : 1.4em;">B</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=C" style="font-size : 1.4em;">C</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=D" style="font-size : 1.4em;">D</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=E" style="font-size : 1.4em;">E</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=F" style="font-size : 1.4em;">F</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=G" style="font-size : 1.4em;">G</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=H" style="font-size : 1.4em;">H</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=I" style="font-size : 1.4em;">I</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=J" style="font-size : 1.4em;">J</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=K" style="font-size : 1.4em;">K</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=L" style="font-size : 1.4em;">L</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=M" style="font-size : 1.4em;">M</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=N" style="font-size : 1.4em;">N</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=O" style="font-size : 1.4em;">O</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=P" style="font-size : 1.4em;">P</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=Q" style="font-size : 1.4em;">Q</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=R" style="font-size : 1.4em;">R</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=S" style="font-size : 1.4em;">S</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=T" style="font-size : 1.4em;">T</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=U" style="font-size : 1.4em;">U</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=V" style="font-size : 1.4em;">V</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=W" style="font-size : 1.4em;">W</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=X" style="font-size : 1.4em;">X</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=Y" style="font-size : 1.4em;">Y</a>&nbsp;&nbsp;
+					
+						<a href="nameAffilSearch.cfm?letter=Z" style="font-size : 1.4em;">Z</a>&nbsp;&nbsp;
+					
+				<p>
+				<form action="nameAffilSearch.cfm" method="post">
+					<br /><h3>Search Type:</h3>
+					<input type="Radio" name="SearchType" value="name" checked>Name
+					<input type="Radio" name="SearchType" value="Affiliation">Affiliation<br /><br />
+					<input type="Text" name="SearchCriteria" size="45">
+					<br /><br />
+					<input type="submit" name="btnSubmit" value="Search">
+				</form>
+				</p>
+			</td>
+		</tr>
+	</table>
+	<br />
+	
+	<div id="separator"><h2>Abstract Keyword Search</h2></div>
+	<table align="center" width="100%">
+		<form action="KeywordSearchResults.cfm" method="post">
+		<tr>
+			<td align="center">
+				<h3>Search up to 2 words:</h3>
+				<input type="Text" name="keyword1" >
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="Text" name="keyword2" >
+				&nbsp;&nbsp;&nbsp;&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<input type="Radio" name="searchtype" value="any" checked>Any portion of keyword
+				<input type="Radio" name="searchtype" value="exact">Exact match of keyword
+				<br /><br />
+				<input type="submit" name="btn_submit" value="Search">
+			</td>
+		</tr>
+		</form>
+	</table>
+
+
+
+	<br /><br />
+	<div id="separator"></div>
+	<p align="center" style="text-align:center;">
+		<br />
+		<a class="smallink" href="index.cfm">2013 JSM Online Program Home</a>
+		<br /><br />
+		For information, contact <a href="mailto:jsm@amstat.org">jsm@amstat.org</a> or phone (888) 231-3473. 
+		<br /><br />
+		If you have questions about the Continuing Education program, please contact the <a href="mailto:educinfo@amstat.org">Education Department</a>.
+	</p>
+				<p style="text-align:center;">
+				<span style="font-size:.9em;line-height:.6em;"><em>The views expressed here are those of the individual authors and not necessarily those of the JSM sponsors, their officers, or their staff.</em></span>
+			</p>
+	</div>
+</div>
+	<div id="footer">
+		<a id="top" href="#">^Top of Page</a>
+	</div>
+</div>
+<div id="social">
+	<span class="copyright">ASA Meetings Department &nbsp;&#8226;&nbsp; 732 North Washington Street, Alexandria, VA 22314 &nbsp;&#8226;&nbsp; (703) 684-1221 &nbsp;&#8226;&nbsp; <a href="mailto:meetings@amstat.org">meetings@amstat.org</a><br />Copyright &copy; American Statistical Association.</span><br /><br />
+	<span class="st_sharethis_large"></span><span class="st_facebook_large"></span><span class="st_twitter_large"></span><span class="st_email_large" ></span>
+</div>
+<script src="https://ssl.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">_uacct = "UA-667618-1";urchinTracker();</script>
+</body>
+</html>
