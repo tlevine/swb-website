@@ -7,9 +7,6 @@ Looking to get involved with Statistics Without Borders?
 
 Read more below about what Statistics Without Borders volunteers do.
 
-## The Role of Statistics in International Health
-International Health covers a number of important fields including health policy (both nationally and internationally), the response to environmental disasters, and the study of health in developing nations. These activities are often hampered through a lack of resources and technical expertise where it is most needed. Statistics plays a vital role within International Health, where statistics can be defined as the ability to collect and interpret valid data describing the impact of a given health concern and its possible causes. Statistics Without Borders was established to meet the vast shortage of statistical expertise within the field of International Health.
- 
 ## Who can become a volunteer for Statistics Without Borders?
 The work of Statistics Without Borders is only possible through the warm generosity of a large team of members who have volunteered their time and expertise to support us in our mission. We warmly welcome volunteers from a wide range of backgrounds. We have members with a long background in international health statistics, experienced statisticians who are new to the field of international health, members who are new to the field of statistics but would like to work on large international health projects under the supervision of an experienced statistician, and members from other non-statistical disciplines (including the evaluation of community aid programs and data management). There is also a special role for SWB members who work for large or small community aid organizations, or who work in developing nations to serve as a representative for SWB within these contexts.
        
