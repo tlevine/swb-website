@@ -3,7 +3,8 @@ body_class: resources
 ---
 
 ## Statistics Without Borders materials
-aoeu
+* Newsletter
+* Brochure
 
 ## Press
 
